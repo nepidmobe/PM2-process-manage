@@ -8,6 +8,14 @@
 ### can use pm2 two ways as command line or making process config file (js/yaml/json file).
 ### install pm2 globally. 
 ### here i use process config file rather commands in terminal for using pm2 in our node app.
-### CREATING PROCESS FILE:
+### CREATING PM2 PROCESS FILE:(adv fine tune, options, env var, log file for each app)
+#### to create process file use command pm2 ecosystem
+#### after that use pm2 [start|restart|stop|delete]ecosystem.config.js
+#### instance in config file deside how many cores MAX use all cores.
+#### any file in dir or sub dir change autorestart set true in config.
+# commands:
+
+
+
 
 
