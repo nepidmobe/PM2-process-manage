@@ -14,7 +14,18 @@
 #### instance in config file deside how many cores MAX use all cores.
 #### any file in dir or sub dir change autorestart set true in config.
 # commands:
-
+## PM2 start command:
+### pm2 start ecosystem.config.js
+## PM2 monitor command:
+### pm2 monit
+## PM2 stop any/all process command:
+### pm2 stop all/app-name
+## PM2 delete any/all process command:
+### pm2 delete all/app-name
+## PM2 list all app command:
+### pm2 list 
+# to test this pm2 app use load test rather than many req from browser. open pm2 monit while load testing.
+ 
 
 
 
